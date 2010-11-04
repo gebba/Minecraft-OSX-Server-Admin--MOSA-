@@ -1,0 +1,36 @@
+Minecraft Server.xcodeproj/gebba.pbxuser
+build/Debug/Minecraft Server.app/Contents/Info.plist
+build/Debug/Minecraft Server.app/Contents/MacOS/Minecraft Server
+build/Debug/Minecraft Server.app/Contents/PkgInfo
+build/Debug/Minecraft Server.app/Contents/Resources/Blocks.plist
+build/Debug/Minecraft Server.app/Contents/Resources/Credits.rtf
+build/Debug/Minecraft Server.app/Contents/Resources/DefaultServerSettings.plist
+build/Debug/Minecraft Server.app/Contents/Resources/English.lproj/InfoPlist.strings
+build/Debug/Minecraft Server.app/Contents/Resources/English.lproj/MainMenu.nib
+build/Debug/Minecraft Server.app/Contents/Resources/Items.plist
+build/Minecraft Server.build/Debug/Minecraft Server.build/Minecraft Server-all-target-headers.hmap
+build/Minecraft Server.build/Debug/Minecraft Server.build/Minecraft Server-generated-files.hmap
+build/Minecraft Server.build/Debug/Minecraft Server.build/Minecraft Server-own-target-headers.hmap
+build/Minecraft Server.build/Debug/Minecraft Server.build/Minecraft Server-project-headers.hmap
+build/Minecraft Server.build/Debug/Minecraft Server.build/Minecraft Server.dep
+build/Minecraft Server.build/Debug/Minecraft Server.build/Minecraft Server.hmap
+build/Minecraft Server.build/Debug/Minecraft Server.build/Objects-normal/x86_64/MainViewController.o
+build/Minecraft Server.build/Debug/Minecraft Server.build/Objects-normal/x86_64/Minecraft Server.LinkFileList
+build/Minecraft Server.build/Debug/Minecraft Server.build/Objects-normal/x86_64/Minecraft_ServerAppDelegate.o
+build/Minecraft Server.build/Debug/Minecraft Server.build/Objects-normal/x86_64/Player.o
+build/Minecraft Server.build/Debug/Minecraft Server.build/Objects-normal/x86_64/RegexKitLite.o
+build/Minecraft Server.build/Debug/Minecraft Server.build/Objects-normal/x86_64/ServerWrapper.o
+build/Minecraft Server.build/Debug/Minecraft Server.build/Objects-normal/x86_64/main.o
+build/Minecraft Server.build/Debug/Minecraft Server.build/build-state.dat
+build/Minecraft Server.build/Minecraft Server.pbxindex/categories.pbxbtree
+build/Minecraft Server.build/Minecraft Server.pbxindex/cdecls.pbxbtree
+build/Minecraft Server.build/Minecraft Server.pbxindex/decls.pbxbtree
+build/Minecraft Server.build/Minecraft Server.pbxindex/files.pbxbtree
+build/Minecraft Server.build/Minecraft Server.pbxindex/imports.pbxbtree
+build/Minecraft Server.build/Minecraft Server.pbxindex/pbxindex.header
+build/Minecraft Server.build/Minecraft Server.pbxindex/protocols.pbxbtree
+build/Minecraft Server.build/Minecraft Server.pbxindex/refs.pbxbtree
+build/Minecraft Server.build/Minecraft Server.pbxindex/strings.pbxstrings/control
+build/Minecraft Server.build/Minecraft Server.pbxindex/strings.pbxstrings/strings
+build/Minecraft Server.build/Minecraft Server.pbxindex/subclasses.pbxbtree
+build/Minecraft Server.build/Minecraft Server.pbxindex/symbols0.pbxsymbols
