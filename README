@@ -4,3 +4,5 @@
 // Created by Johan Sjolin (aka Gebba, Thau)
 // https://github.com/gebba/Minecraft-OSX-Server-Admin--MOSA-
 //
+
+Makes use of John Engelhart's RegexKitLite: http://regexkit.sourceforge.net/

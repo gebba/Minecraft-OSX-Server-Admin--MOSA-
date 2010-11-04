@@ -10,6 +10,8 @@
 		029A2FE81216CEB600689142 /* DefaultServerSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 029A2FE71216CEB600689142 /* DefaultServerSettings.plist */; };
 		029AB410121B3DF800AB13DB /* Blocks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 029AB40F121B3DF800AB13DB /* Blocks.plist */; };
 		029AB41B121B471A00AB13DB /* Items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 029AB41A121B471A00AB13DB /* Items.plist */; };
+		02A3E2C6128311090069291E /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A3E2C5128311090069291E /* Settings.m */; };
+		02A3E2C8128311B00069291E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 02A3E2C7128311B00069291E /* README */; };
 		02B516E212167AF400E46406 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B516E112167AF400E46406 /* MainViewController.m */; };
 		02B88B26121DB5F1002A07AE /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B88B25121DB5F1002A07AE /* Player.m */; };
 		02B88B71121DBCB9002A07AE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 02B88B70121DBCB9002A07AE /* Credits.rtf */; };
@@ -26,6 +28,9 @@
 		029A2FE71216CEB600689142 /* DefaultServerSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultServerSettings.plist; sourceTree = "<group>"; };
 		029AB40F121B3DF800AB13DB /* Blocks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Blocks.plist; sourceTree = "<group>"; };
 		029AB41A121B471A00AB13DB /* Items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Items.plist; sourceTree = "<group>"; };
+		02A3E2C4128311090069291E /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		02A3E2C5128311090069291E /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		02A3E2C7128311B00069291E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		02B516E012167AF400E46406 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		02B516E112167AF400E46406 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		02B88B24121DB5F1002A07AE /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
@@ -74,6 +79,8 @@
 				02F6DC1F1216DCB800603195 /* ServerWrapper.m */,
 				02B88B24121DB5F1002A07AE /* Player.h */,
 				02B88B25121DB5F1002A07AE /* Player.m */,
+				02A3E2C4128311090069291E /* Settings.h */,
+				02A3E2C5128311090069291E /* Settings.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -128,6 +135,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				02A3E2C7128311B00069291E /* README */,
 				8D1107310486CEB800E47090 /* Minecraft_Server-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -204,6 +212,7 @@
 				029AB410121B3DF800AB13DB /* Blocks.plist in Resources */,
 				029AB41B121B471A00AB13DB /* Items.plist in Resources */,
 				02B88B71121DBCB9002A07AE /* Credits.rtf in Resources */,
+				02A3E2C8128311B00069291E /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 				02F6DC201216DCB800603195 /* ServerWrapper.m in Sources */,
 				02F6DF801217784400603195 /* RegexKitLite.m in Sources */,
 				02B88B26121DB5F1002A07AE /* Player.m in Sources */,
+				02A3E2C6128311090069291E /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
