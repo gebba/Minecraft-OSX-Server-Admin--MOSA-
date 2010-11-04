@@ -10,5 +10,25 @@
 
 
 @implementation Settings
+@synthesize maxPlayers, javaMem, automaticBackups, backupFrequency;
 
+- (id) init
+{
+	self = [super init];
+	if (self != nil) {
+		[self loadSettingsFromFile];
+	}
+	return self;
+}
+
+
+- (void) saveSettingsToFile;
+{
+	[[NSNotificationCenter defaultCenter] postNotificationName:SettingsSavedNotification object:self];
+}
+
+- (void) loadSettingsFromFile;
+{
+	[[NSNotificationCenter defaultCenter] postNotificationName:SettingsLoadedNotification object:self];
+}
 @end

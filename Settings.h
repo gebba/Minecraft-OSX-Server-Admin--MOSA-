@@ -8,9 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
+static NSString *SettingsSavedNotification = @"SettingsSaved";
+static NSString *SettingsLoadedNotification = @"SettingsLoaded";
 
 @interface Settings : NSObject {
-	
+	NSInteger maxPlayers;
+	NSInteger javaMem;
+	BOOL automaticBackups;
+	NSTimeInterval backupFrequency;
 }
+
+@property (nonatomic) NSInteger maxPlayers;
+@property (nonatomic) NSInteger javaMem;
+@property (nonatomic) BOOL automaticBackups;
+@property (nonatomic) NSTimeInterval backupFrequency;
+
+- (void) saveSettingsToFile;
+- (void) loadSettingsFromFile;
 
 @end
